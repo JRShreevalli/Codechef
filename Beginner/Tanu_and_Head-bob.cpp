@@ -1,20 +1,36 @@
-#include <iostream>
-#include <algorithm>
-using namespace std ;
-
-int main()
-{
-    int t ;
-    cin >> t ;
+#include <stdio.h>
+int main(void){
+    int t;
+    scanf("%d",&t);
     while(t--)
     {
-        int n , i ;
-        cin >> n ;
-        int a[n]  ;
-        for( i=0 ; i< n ; i += 1 )
-            cin >> a[i] ;
-        sort(a,a+n);
-        cout << a[0]+a[1] << endl ;
-    }
-    return 0 ;
+        int n;
+	    scanf("%d",&n);
+	    char arr[n];
+	    for(int i=0;i<=n;i++)
+	    {
+	        scanf("%c",&arr[i]);
+	    }
+	    int x=0;
+	    for(int i=0;i<=n;i++)
+	    {
+	        if(arr[i]=='Y')
+	        {
+	            printf("NOT INDIAN\n");
+	            break;
+	        }
+	        else if(arr[i]=='I')
+	        {
+	            printf("INDIAN\n");
+	            break;
+	        }
+	        else if(arr[i]=='N')
+	        {
+	            x++;
+	        }
+	    }
+	    if(x==n)
+	    printf("NOT SURE\n");
+	}
+	return 0;
 }
