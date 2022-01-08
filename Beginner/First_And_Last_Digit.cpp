@@ -4,7 +4,6 @@ using namespace std ;
 int Pro(int val)
 {
     int last = val % 10 ;
-    int first ; 
     while(val > 9)
     {
         val /= 10 ; 
