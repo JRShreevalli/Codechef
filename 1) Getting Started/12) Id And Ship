@@ -1,0 +1,38 @@
+Problem Statement :  
+                    Write a program that takes in a letterclass ID of a ship and display 
+                    the equivalent string class description of the given ID. Use the table below.
+                    
+                    Class ID	Ship Class
+                    
+                      B or b	BattleShip
+                      C or c	Cruiser
+                      D or d	Destroyer
+                      F or f	Frigate
+                      
+ Problem Code : FLOW010
+ 
+ Link : https://www.codechef.com/LP0TO101/problems/FLOW010
+ 
+ // SOLUTION 
+ 
+ #include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int t;
+	cin >> t;
+	while(t--){
+		char val;
+		cin >> val;
+		if(val =='b' || val =='B')
+			cout << "BattleShip" << endl;
+		else if(val =='c' || val =='C')
+			cout << "Cruiser" << endl;
+		else if(val =='d' || val =='D')
+			cout << "Destroyer" << endl;
+		else if(val =='f' || val =='F')
+			cout << "Frigate" << endl;
+	}
+}
