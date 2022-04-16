@@ -1,0 +1,21 @@
+Problem Statement : Write a program to find the remainder when an integer A is divided by an integer B.
+
+Problem Code : FLOW002
+
+Problem Link : https://www.codechef.com/LP0TO101/problems/FLOW002
+
+// Solution 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+     int t , x , y ;
+     cin >> t;
+     while( t-- )
+     {
+        cin >> x >> y ;
+        cout << x % y << endl ;
+     }
+     return 0;
+}
