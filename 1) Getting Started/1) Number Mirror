@@ -1,0 +1,19 @@
+Problem Statement :
+                    Write a program that accepts a number, n, and outputs the same.
+
+Problem Code: START01
+
+
+// Solution  
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	int val ;
+	cin >> val ;
+	cout << val ;
+	return 0;
+}
+
