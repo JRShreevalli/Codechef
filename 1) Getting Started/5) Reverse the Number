@@ -1,0 +1,30 @@
+Problem Statement : Given an Integer N, write a program to reverse it.
+
+Problem Code : FLOW007
+
+Problem Link : https://www.codechef.com/LP0TO101/problems/FLOW007
+
+// SOLUTION 
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cin >> t;
+    for(int i=1;i<=t;i++)
+    {
+        int n , reverse = 0 , rem ;
+        cin >> n;
+        while( n != 0 )
+        {
+            rem = n % 10 ;
+            reverse = reverse * 10 + rem ;
+            n = n / 10 ;
+        }
+        cout<<reverse<<endl;
+    }
+	return 0;
+}
+
