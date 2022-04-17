@@ -1,0 +1,47 @@
+Statement :
+            Chef has been searching for a good motivational movie that he can watch during his exam time. 
+            His hard disk has X GB of space remaining. His friend has N movies represented with (Si,Ri) 
+            representing (space required, IMDB rating). Help Chef choose the single best movie (highest IMDB rating) 
+            that can fit in his hard disk.
+            
+Problem Code: IMDB
+
+Link : https://www.codechef.com/LP1TO201/problems/IMDB
+
+//SOLUTION
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int motivate( int n , int x , int s[] ,  int r[])
+{
+    int max_rat = 0 ;
+    int i ;
+    for(i=0 ; i<n ; i++)
+    {
+        if(s[i] <= x && r[i] > max_rat )
+            max_rat = r[i] ;
+    }
+    return max_rat ;
+}
+int main() 
+{
+    int t , n , x , i ;
+    cin >> t ;
+    while( t-- )
+    {
+        cin >> n >> x ;
+        int s[n] , r[n] ;
+        for(i=0 ; i<n ; i++)
+        {
+            cin >> s[i]  ;
+            cin >> r[i] ;
+        }
+        int res = motivate( n , x , s , r) ;
+        cout << res << endl ;
+    }
+	return 0;
+}
+
+
