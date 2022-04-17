@@ -1,0 +1,76 @@
+Statement :
+            Chef wants to buy a stock whose price was S rupees when the market opened. 
+            He will buy the stock if and only if its price is in the range [A,B].
+            The price of the stock has changed by C% by the time he was trying to buy the stock. Will he be able to buy the stock?
+            
+Problem Code: CSTOCK
+
+Link : https://www.codechef.com/LP1TO201/problems/CSTOCK
+
+// SOLUTION 1 -----> ONLY SUBTAST GOT EXECUTED 
+
+#include <iostream>
+using namespace std;
+
+int fun( double s , double  a , double b , double c )
+{
+    double val , res ;
+    val =  (c * s) / 100 ;
+    
+    if( c > 0 )
+    {
+        res =  s + val ;
+    }
+    if( c < 0 )
+    {
+        res =  s - val ;
+    }
+
+    if ( res >= a && res <= b )
+        cout << "Yes" << endl ;
+        
+    else
+        cout << "No" << endl ;
+        
+    return 0 ;
+}
+
+int main() 
+{
+    int t ;
+    double s , a , b , c ;
+    
+    cin >> t ;
+    
+    while( t-- )
+    {
+        cin >> s >> a >> b >> c ;
+        fun( s , a , b , c ) ;
+    }
+	return 0;
+}
+
+// SOLUTION 2 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    
+	    int s, a, b,c;
+	    cin>>s>>a>>b>>c;
+	    
+	    double price=s;
+	    price += price*c/100;
+	    
+	    if(price>=a && price<=b)
+	    cout<<"YES"<<endl;
+	    
+	    else
+	    cout<<"NO"<<endl;
+	}
+	return 0;
+}
