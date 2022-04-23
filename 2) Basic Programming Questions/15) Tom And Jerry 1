@@ -1,0 +1,56 @@
+Problem Statement :
+                    There is a grid of size 105×105, covered completely in railway tracks. 
+                    Tom is riding in a train, currently in cell (a,b), and Jerry is tied up in a different cell (c,d), 
+                    unable to move. The train has no breaks. It shall move exactly K steps, and then its fuel will run 
+                    out and it shall stop. In one step, the train must move to one of its neighboring cells, sharing a side.
+                    Tom can’t move without the train, as the grid is covered in tracks. Can Tom reach Jerry’s cell after exactly K steps?
+
+                    Note: Tom can go back to the same cell multiple times.
+                    
+                    
+Problem Code : TANDJ1
+
+// SOLUTION 
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+    while(t--)
+    {
+        int a,b,c,d,K;
+        cin>>a>>b>>c>>d>>K;
+        int cnt=0;
+        cnt=abs(a-c)+abs(b-d);
+        if(cnt==K)
+        {
+            cout<<"YES"<<"\n";
+        }
+        else
+        {
+            if(K>cnt)
+            {
+                if((K-cnt)%2==0)
+                {
+                    cout<<"YES"<<"\n";
+                }
+                else
+                {
+                    cout<<"NO"<<"\n";
+                }
+            }
+            else
+            {
+                cout<<"NO"<<"\n";
+            }
+
+        }
+
+
+    }
+
+}
+
+
