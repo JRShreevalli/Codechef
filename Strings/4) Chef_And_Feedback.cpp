@@ -10,6 +10,7 @@ Problem Statement :
                     So given some binary strings, you need to output whether according to the chef, the strings are Good or Bad.
 
 Problem Code :  ERROR
+Problem Link : https://www.codechef.com/LP1TO203/problems/ERROR
 
 // SOLUTION //
 
