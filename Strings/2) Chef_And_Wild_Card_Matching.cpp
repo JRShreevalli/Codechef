@@ -5,6 +5,7 @@ Problem Statement :
                   He wants to know whether the strings X and Y can be matched or not.
                     
 Problem Code :  TWOSTR
+Problem LInk :   https://www.codechef.com/LP1TO203/problems/TWOSTR
 
 // SOLUTION 
 
