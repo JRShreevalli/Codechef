@@ -9,6 +9,7 @@ Problem Statement :
                     Your task is simple. Given a string, you need to tell if it is a lapindrome.
                       
 Problem Code : LAPIN 
+LInk :  https://www.codechef.com/LP1TO203/problems/LAPIN
 
 // SOLUTION //
 
