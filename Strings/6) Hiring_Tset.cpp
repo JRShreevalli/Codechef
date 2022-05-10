@@ -11,6 +11,7 @@ Problem Statement :
                     The ith integer should be 1 if the ith candidate has passed the test, else it should be 0.
                       
 Problem Code :  HIRETEST
+LInk :  https://www.codechef.com/LP1TO203/problems/HIRETEST
 
 // SOLUTION //
 
