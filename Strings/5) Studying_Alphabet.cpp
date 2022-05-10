@@ -7,6 +7,7 @@ Problem Statement :
                   Now Chef is curious about which words his brother will be able to read, and which are not. Please help him!
                     
 Problem Code : ALPHABET
+Problem link : https://www.codechef.com/LP1TO203/problems/ALPHABET
 
 // SOLUTION //
 
