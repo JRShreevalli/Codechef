@@ -3,6 +3,7 @@ Problem Question :
                   and change each of its substrings that spells "party" to "pawri". Find the resulting string.
                     
 Problem Code: PAWRI
+Problem link :  https://www.codechef.com/LP1TO203/problems/PAWRI
 
 // SOLUTION // 
 
