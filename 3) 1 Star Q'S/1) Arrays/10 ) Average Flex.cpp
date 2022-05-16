@@ -7,7 +7,8 @@ Problem question :
                     
 Problem Code :
                 AVGFLEX
-                
+
+Link :	https://www.codechef.com/LP1TO202/problems/AVGFLEZ
 // SOLUTION 
 
 #include <iostream>
