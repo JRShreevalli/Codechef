@@ -11,6 +11,8 @@ Problem :
                                                   
 Problem Code :  BEGGASOL
 
+Link : https://www.codechef.com/LP1TO202/problems/BEGGASOL
+
 // SOLUTION 
 
 #include <bits/stdc++.h>
