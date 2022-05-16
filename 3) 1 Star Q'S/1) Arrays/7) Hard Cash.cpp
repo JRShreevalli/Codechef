@@ -15,6 +15,8 @@ Problem :
             
 Problem Code : CASH
 
+Link : https://www.codechef.com/LP1TO202/problems/CASH
+
 // SOLUTION 
 
 #include <iostream>
