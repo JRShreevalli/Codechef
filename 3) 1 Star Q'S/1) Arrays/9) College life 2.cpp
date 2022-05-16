@@ -9,6 +9,8 @@ Problem Quetion :
                     
 Problem Code : COLGLF2
 
+Link : https://www.codechef.com/LP1TO202/problems/COLGLF2
+
 // SOLUTION 
 
 #include <iostream>
